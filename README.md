@@ -33,9 +33,16 @@ repeated identical failures don't inflate the number).
 | Version | Accuracy | Each scenario once | Notes |
 | --- | --- | --- | --- |
 | Majority guess (always `product_bug`) | 36% | 33% | The floor |
-| One-prompt baseline, qwen3:8b | to be measured | | |
+| One-prompt baseline, qwen3:8b | 56% | 54% | Environment 4/4; misses need test source or a rerun (see below) |
 
 Full reports, including every answer, are in `evals/results/`.
+
+What the baseline gets wrong is mostly information a single run doesn't contain:
+
+- **Is it intermittent?** Cart API errors were called product bugs; a missing validation message and a wrong locator were called flaky. All three need to know whether the failure repeats on a rerun.
+- **What does the test actually check?** A test asserting A-to-Z order after sorting Z-to-A was blamed on the app, and a correct "item should be gone" check was blamed on the test. Both need the test's source code.
+
+Those two gaps decide the agent's first tools.
 
 ## Run it
 

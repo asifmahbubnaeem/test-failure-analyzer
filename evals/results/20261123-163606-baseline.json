@@ -1,0 +1,578 @@
+{
+  "summary": {
+    "predictor": "baseline",
+    "model": "qwen3:8b",
+    "cases": 25,
+    "scenarios": 12,
+    "accuracy": 0.56,
+    "scenario_weighted_accuracy": 0.542,
+    "no_answer": 0,
+    "per_category": {
+      "product_bug": {
+        "support": 9,
+        "precision": 0.5555555555555556,
+        "recall": 0.5555555555555556
+      },
+      "test_bug": {
+        "support": 8,
+        "precision": 0.6,
+        "recall": 0.375
+      },
+      "flaky": {
+        "support": 4,
+        "precision": 0.3333333333333333,
+        "recall": 0.5
+      },
+      "environment": {
+        "support": 4,
+        "precision": 0.8,
+        "recall": 1.0
+      }
+    },
+    "seconds_total": 6192.9,
+    "seconds_per_case": 247.7,
+    "prompt_tokens_per_case": 903
+  },
+  "rows": [
+    {
+      "case_id": "case-0001",
+      "scenario": "pb-tax-rounding",
+      "expected": "product_bug",
+      "predicted": "product_bug",
+      "verdict": {
+        "category": "product_bug",
+        "confidence": 0.95,
+        "root_cause": "The application's calculation of order totals is incorrect, leading to a mismatch between expected and actual values.",
+        "evidence": [
+          "AssertionError: Total mismatch. Item(50.49) + Tax(4.03) != Total(54.53)",
+          "HTTP status counts: {'200': 206, '303': 22}"
+        ]
+      },
+      "usage": {
+        "seconds": 105.07,
+        "prompt_tokens": 456,
+        "output_tokens": 114,
+        "attempts": 1
+      }
+    },
+    {
+      "case_id": "case-0002",
+      "scenario": "pb-sort-price",
+      "expected": "product_bug",
+      "predicted": "product_bug",
+      "verdict": {
+        "category": "product_bug",
+        "confidence": 0.95,
+        "root_cause": "The application is not sorting prices correctly in the catalog, leading to assertion failures in the test.",
+        "evidence": [
+          "AssertionError: Expected sorted=[9.99, 12.49, 15.99, 24.99, 34.5, 79.0], got=[12.49, 15.99, 24.99, 34.5, 79.0, 9.99]",
+          "AssertionError: Expected sorted=[79.0, 34.5, 24.99, 15.99, 12.49, 9.99], got=[9.99, 79.0, 34.5, 24.99, 15.99, 12.49]"
+        ]
+      },
+      "usage": {
+        "seconds": 262.89,
+        "prompt_tokens": 908,
+        "output_tokens": 227,
+        "attempts": 1
+      }
+    },
+    {
+      "case_id": "case-0003",
+      "scenario": "pb-sort-price",
+      "expected": "product_bug",
+      "predicted": "product_bug",
+      "verdict": {
+        "category": "product_bug",
+        "confidence": 0.95,
+        "root_cause": "The application is not sorting prices correctly in the catalog, resulting in unexpected order.",
+        "evidence": [
+          "AssertionError: Expected sorted=[9.99, 12.49, 15.99, 24.99, 34.5, 79.0], got=[12.49, 15.99, 24.99, 34.5, 79.0, 9.99]",
+          "AssertionError: Expected sorted=[79.0, 34.5, 24.99, 15.99, 12.49, 9.99], got=[9.99, 79.0, 34.5, 24.99, 15.99, 12.49]"
+        ]
+      },
+      "usage": {
+        "seconds": 151.63,
+        "prompt_tokens": 908,
+        "output_tokens": 224,
+        "attempts": 1
+      }
+    },
+    {
+      "case_id": "case-0004",
+      "scenario": "pb-tax-rounding",
+      "expected": "product_bug",
+      "predicted": "product_bug",
+      "verdict": {
+        "category": "product_bug",
+        "confidence": 0.95,
+        "root_cause": "The application's calculation of order totals is incorrect, leading to a mismatch between expected and actual values.",
+        "evidence": [
+          "AssertionError: Total mismatch. Item(50.49) + Tax(4.03) != Total(54.53)",
+          "HTTP status counts: {'200': 206, '303': 22}"
+        ]
+      },
+      "usage": {
+        "seconds": 139.27,
+        "prompt_tokens": 456,
+        "output_tokens": 114,
+        "attempts": 1
+      }
+    },
+    {
+      "case_id": "case-0005",
+      "scenario": "pb-tax-rounding",
+      "expected": "product_bug",
+      "predicted": "product_bug",
+      "verdict": {
+        "category": "product_bug",
+        "confidence": 0.95,
+        "root_cause": "The application is incorrectly calculating the total order amount, leading to a mismatch between the item and tax sum and the displayed total.",
+        "evidence": [
+          "AssertionError: Total mismatch. Item(50.49) + Tax(4.03) != Total(54.53)",
+          "HTTP status counts: {'200': 206, '303': 22}"
+        ]
+      },
+      "usage": {
+        "seconds": 94.88,
+        "prompt_tokens": 455,
+        "output_tokens": 119,
+        "attempts": 1
+      }
+    },
+    {
+      "case_id": "case-0006",
+      "scenario": "pb-cart-remove",
+      "expected": "product_bug",
+      "predicted": "test_bug",
+      "verdict": {
+        "category": "test_bug",
+        "confidence": 0.95,
+        "root_cause": "The test assertion is incorrect, expecting an item to be excluded when it is actually present in the list.",
+        "evidence": [
+          "AssertionError: assert 'Canvas Tote Bag' not in ['Canvas Tote Bag', 'Desk Lamp']"
+        ]
+      },
+      "usage": {
+        "seconds": 87.63,
+        "prompt_tokens": 427,
+        "output_tokens": 82,
+        "attempts": 1
+      }
+    },
+    {
+      "case_id": "case-0007",
+      "scenario": "pb-cart-remove",
+      "expected": "product_bug",
+      "predicted": "test_bug",
+      "verdict": {
+        "category": "test_bug",
+        "confidence": 0.95,
+        "root_cause": "The test assertion is incorrect, expecting an item to be excluded when it is actually present in the list.",
+        "evidence": [
+          "AssertionError: assert 'Canvas Tote Bag' not in ['Canvas Tote Bag', 'Desk Lamp']"
+        ]
+      },
+      "usage": {
+        "seconds": 65.85,
+        "prompt_tokens": 427,
+        "output_tokens": 82,
+        "attempts": 1
+      }
+    },
+    {
+      "case_id": "case-0008",
+      "scenario": "pb-checkout-validation",
+      "expected": "product_bug",
+      "predicted": "flaky",
+      "verdict": {
+        "category": "flaky",
+        "confidence": 0.85,
+        "root_cause": "The test failure is likely due to an intermittent timing issue, as the expected element did not appear within the timeout period.",
+        "evidence": [
+          "playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 10000ms exceeded.",
+          "waiting for locator(\"[data-test='error']\") to be visible"
+        ]
+      },
+      "usage": {
+        "seconds": 118.34,
+        "prompt_tokens": 478,
+        "output_tokens": 103,
+        "attempts": 1
+      }
+    },
+    {
+      "case_id": "case-0009",
+      "scenario": "pb-checkout-validation",
+      "expected": "product_bug",
+      "predicted": "flaky",
+      "verdict": {
+        "category": "flaky",
+        "confidence": 0.85,
+        "root_cause": "The test failure is likely due to an intermittent timing issue, as the expected element did not appear within the timeout period.",
+        "evidence": [
+          "playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 10000ms exceeded.",
+          "waiting for locator(\"[data-test='error']\") to be visible"
+        ]
+      },
+      "usage": {
+        "seconds": 71.35,
+        "prompt_tokens": 478,
+        "output_tokens": 103,
+        "attempts": 1
+      }
+    },
+    {
+      "case_id": "case-0010",
+      "scenario": "tb-checkout-locator",
+      "expected": "test_bug",
+      "predicted": "flaky",
+      "verdict": {
+        "category": "flaky",
+        "confidence": 0.95,
+        "root_cause": "The test failures are intermittent and likely due to timing issues or race conditions when waiting for the checkout button to be clickable.",
+        "evidence": [
+          "playwright._impl._errors.TimeoutError: Page.click: Timeout 30000ms exceeded.",
+          "Call log: - waiting for locator(\"[data-test='checkout-button']\")"
+        ]
+      },
+      "usage": {
+        "seconds": 193.05,
+        "prompt_tokens": 769,
+        "output_tokens": 103,
+        "attempts": 1
+      }
+    },
+    {
+      "case_id": "case-0011",
+      "scenario": "tb-checkout-locator",
+      "expected": "test_bug",
+      "predicted": "flaky",
+      "verdict": {
+        "category": "flaky",
+        "confidence": 0.95,
+        "root_cause": "The test failures are intermittent and likely due to timing issues or race conditions when waiting for the checkout button to be clickable.",
+        "evidence": [
+          "playwright._impl._errors.TimeoutError: Page.click: Timeout 30000ms exceeded.",
+          "Call log: - waiting for locator(\"[data-test='checkout-button']\")"
+        ]
+      },
+      "usage": {
+        "seconds": 83.62,
+        "prompt_tokens": 769,
+        "output_tokens": 103,
+        "attempts": 1
+      }
+    },
+    {
+      "case_id": "case-0012",
+      "scenario": "tb-confirmation-text",
+      "expected": "test_bug",
+      "predicted": "test_bug",
+      "verdict": {
+        "category": "test_bug",
+        "confidence": 0.95,
+        "root_cause": "The test is asserting for a string that does not match the actual content due to incorrect expected value or case sensitivity.",
+        "evidence": [
+          "AssertionError: assert 'ORDER PLACED' in 'THANK YOU FOR YOUR ORDER!'",
+          "'Thank you for your order!' = get_confirmation_header_text()"
+        ]
+      },
+      "usage": {
+        "seconds": 145.75,
+        "prompt_tokens": 632,
+        "output_tokens": 95,
+        "attempts": 1
+      }
+    },
+    {
+      "case_id": "case-0013",
+      "scenario": "tb-confirmation-text",
+      "expected": "test_bug",
+      "predicted": "test_bug",
+      "verdict": {
+        "category": "test_bug",
+        "confidence": 0.95,
+        "root_cause": "The test is asserting a string that does not match the actual content due to incorrect expected value or case sensitivity.",
+        "evidence": [
+          "AssertionError: assert 'ORDER PLACED' in 'THANK YOU FOR YOUR ORDER!'",
+          "'Thank you for your order!' = get_confirmation_header_text()"
+        ]
+      },
+      "usage": {
+        "seconds": 126.85,
+        "prompt_tokens": 637,
+        "output_tokens": 94,
+        "attempts": 1
+      }
+    },
+    {
+      "case_id": "case-0014",
+      "scenario": "tb-sort-direction",
+      "expected": "test_bug",
+      "predicted": "product_bug",
+      "verdict": {
+        "category": "product_bug",
+        "confidence": 0.95,
+        "root_cause": "The application is not sorting products correctly in descending alphabetical order as expected.",
+        "evidence": [
+          "AssertionError: Expected sorted=['Canvas Tote Bag', 'Desk Lamp', 'Mechanical Keyboard', 'Notebook Set', 'Trail Water Bottle', 'Wireless Mouse'], got=['Wireless Mouse', 'Trail Water Bottle', 'Notebook Set', 'Mechanical Keyboard', 'Desk Lamp', 'Canvas Tote Bag']"
+        ]
+      },
+      "usage": {
+        "seconds": 126.3,
+        "prompt_tokens": 553,
+        "output_tokens": 119,
+        "attempts": 1
+      }
+    },
+    {
+      "case_id": "case-0015",
+      "scenario": "tb-sort-direction",
+      "expected": "test_bug",
+      "predicted": "product_bug",
+      "verdict": {
+        "category": "product_bug",
+        "confidence": 0.95,
+        "root_cause": "The application is not sorting products correctly in descending alphabetical order as expected.",
+        "evidence": [
+          "AssertionError: Expected sorted=['Canvas Tote Bag', 'Desk Lamp', 'Mechanical Keyboard', 'Notebook Set', 'Trail Water Bottle', 'Wireless Mouse'], got=['Wireless Mouse', 'Trail Water Bottle', 'Notebook Set', 'Mechanical Keyboard', 'Desk Lamp', 'Canvas Tote Bag']"
+        ]
+      },
+      "usage": {
+        "seconds": 80.95,
+        "prompt_tokens": 552,
+        "output_tokens": 119,
+        "attempts": 1
+      }
+    },
+    {
+      "case_id": "case-0016",
+      "scenario": "tb-password-typo",
+      "expected": "test_bug",
+      "predicted": "environment",
+      "verdict": {
+        "category": "environment",
+        "confidence": 0.95,
+        "root_cause": "The application is not running or misconfigured, leading to incorrect URLs and timeouts.",
+        "evidence": [
+          "Page URL expected to be 're.compile('^http://127\\.0\\.0\\.1:8000/inventory\\.html$')' Actual value: http://127.0.0.1:8000/",
+          "playwright._impl._errors.TimeoutError: Page.click: Timeout 30000ms exceeded.",
+          "IndexError: list index out of range",
+          "assert 0 > 0"
+        ]
+      },
+      "usage": {
+        "seconds": 672.06,
+        "prompt_tokens": 2250,
+        "output_tokens": 149,
+        "attempts": 1
+      }
+    },
+    {
+      "case_id": "case-0017",
+      "scenario": "tb-password-typo",
+      "expected": "test_bug",
+      "predicted": "test_bug",
+      "verdict": {
+        "category": "test_bug",
+        "confidence": 0.95,
+        "root_cause": "Test assertions and locators are incorrect or misaligned with the application's actual behavior.",
+        "evidence": [
+          "AssertionError: Page URL expected to be 're.compile('^http://127\\.0\\.0\\.1:8000/inventory\\.html$')' Actual value: http://127.0.0.1:8000/",
+          "IndexError: list index out of range",
+          "assert 0 > 0",
+          "TimeoutError: Page.click: Timeout 30000ms exceeded. waiting for locator(\"#menu-button\")",
+          "TimeoutError: Page.select_option: Timeout 30000ms exceeded. waiting for locator(\".select_container select, select[data-test='product_sort_container'], select.product_sort_container\")"
+        ]
+      },
+      "usage": {
+        "seconds": 579.71,
+        "prompt_tokens": 2250,
+        "output_tokens": 199,
+        "attempts": 1
+      }
+    },
+    {
+      "case_id": "case-0018",
+      "scenario": "fl-cart-api-500",
+      "expected": "flaky",
+      "predicted": "product_bug",
+      "verdict": {
+        "category": "product_bug",
+        "confidence": 0.95,
+        "root_cause": "The application is not correctly handling item additions and removals in the cart, leading to incorrect data in the UI and backend errors.",
+        "evidence": [
+          "AssertionError: assert 'Desk Lamp' in ['Canvas Tote Bag']",
+          "POST /api/cart/canvas-tote-bag -> 500",
+          "POST /api/cart/desk-lamp -> 500"
+        ]
+      },
+      "usage": {
+        "seconds": 209.85,
+        "prompt_tokens": 844,
+        "output_tokens": 114,
+        "attempts": 1
+      }
+    },
+    {
+      "case_id": "case-0019",
+      "scenario": "fl-cart-api-500",
+      "expected": "flaky",
+      "predicted": "product_bug",
+      "verdict": {
+        "category": "product_bug",
+        "confidence": 0.95,
+        "root_cause": "The application is failing to update the cart badge and item list correctly after adding or removing items, leading to assertion errors in the tests.",
+        "evidence": [
+          "AssertionError: Expected cart badge 1, got 0",
+          "AssertionError: assert 'Desk Lamp' in ['Canvas Tote Bag']",
+          "AssertionError: assert 'Canvas Tote Bag' not in ['Canvas Tote Bag', 'Desk Lamp']",
+          "POST /api/cart/canvas-tote-bag -> 500",
+          "POST /api/cart/desk-lamp -> 500"
+        ]
+      },
+      "usage": {
+        "seconds": 228.53,
+        "prompt_tokens": 797,
+        "output_tokens": 155,
+        "attempts": 1
+      }
+    },
+    {
+      "case_id": "case-0020",
+      "scenario": "fl-slow-inventory",
+      "expected": "flaky",
+      "predicted": "flaky",
+      "verdict": {
+        "category": "flaky",
+        "confidence": 0.95,
+        "root_cause": "The failures are intermittent and likely due to timing issues or race conditions during the click actions.",
+        "evidence": [
+          "Page.click: Timeout 30000ms exceeded.",
+          "waiting for element to be visible, enabled and stable",
+          "element is visible, enabled and stable",
+          "scrolling into view if needed",
+          "click action done"
+        ]
+      },
+      "usage": {
+        "seconds": 328.5,
+        "prompt_tokens": 1180,
+        "output_tokens": 107,
+        "attempts": 1
+      }
+    },
+    {
+      "case_id": "case-0021",
+      "scenario": "fl-slow-inventory",
+      "expected": "flaky",
+      "predicted": "flaky",
+      "verdict": {
+        "category": "flaky",
+        "confidence": 0.95,
+        "root_cause": "The test failures are intermittent and likely due to timing issues or race conditions during element interaction.",
+        "evidence": [
+          "Page.click: Timeout 30000ms exceeded.",
+          "waiting for element to be visible, enabled and stable",
+          "element is visible, enabled and stable",
+          "scrolling into view if needed",
+          "click action done"
+        ]
+      },
+      "usage": {
+        "seconds": 497.43,
+        "prompt_tokens": 1032,
+        "output_tokens": 107,
+        "attempts": 1
+      }
+    },
+    {
+      "case_id": "case-0022",
+      "scenario": "env-tax-rate-missing",
+      "expected": "environment",
+      "predicted": "environment",
+      "verdict": {
+        "category": "environment",
+        "confidence": 0.9,
+        "root_cause": "The application is experiencing server errors (500) and missing environment variables (TAX_RATE), causing timeouts in test interactions.",
+        "evidence": [
+          "3x GET /checkout-step-two.html -> 500",
+          "3x KeyError: 'TAX_RATE'"
+        ]
+      },
+      "usage": {
+        "seconds": 357.47,
+        "prompt_tokens": 726,
+        "output_tokens": 87,
+        "attempts": 1
+      }
+    },
+    {
+      "case_id": "case-0023",
+      "scenario": "env-tax-rate-missing",
+      "expected": "environment",
+      "predicted": "environment",
+      "verdict": {
+        "category": "environment",
+        "confidence": 0.9,
+        "root_cause": "The application is experiencing server errors that are causing timeouts in test interactions.",
+        "evidence": [
+          "3x GET /checkout-step-two.html -> 500",
+          "KeyError: 'TAX_RATE'",
+          "TimeoutError: Page.click: Timeout 30000ms exceeded.",
+          "TimeoutError: Page.inner_text: Timeout 30000ms exceeded."
+        ]
+      },
+      "usage": {
+        "seconds": 166.49,
+        "prompt_tokens": 726,
+        "output_tokens": 112,
+        "attempts": 1
+      }
+    },
+    {
+      "case_id": "case-0024",
+      "scenario": "env-database-down",
+      "expected": "environment",
+      "predicted": "environment",
+      "verdict": {
+        "category": "environment",
+        "confidence": 0.95,
+        "root_cause": "The database connection is failing due to a refused connection, which is causing multiple test failures.",
+        "evidence": [
+          "15x psycopg.OperationalError: connection failed: connection to server at \"127.0.0.1\", port 5999 failed: Connection refused",
+          "HTTP status counts: {'200': 49, '303': 15, '500': 15, '503': 1}",
+          "Requests that got a server error: 15x GET /inventory.html -> 500"
+        ]
+      },
+      "usage": {
+        "seconds": 811.3,
+        "prompt_tokens": 1931,
+        "output_tokens": 157,
+        "attempts": 1
+      }
+    },
+    {
+      "case_id": "case-0025",
+      "scenario": "env-database-down",
+      "expected": "environment",
+      "predicted": "environment",
+      "verdict": {
+        "category": "environment",
+        "confidence": 0.95,
+        "root_cause": "The database connection is failing due to a refused connection, which is causing multiple test failures.",
+        "evidence": [
+          "15x psycopg.OperationalError: connection failed: connection to server at \"127.0.0.1\", port 5999 failed: Connection refused",
+          "15x GET /inventory.html -> 500",
+          "1x GET /healthz -> 503"
+        ]
+      },
+      "usage": {
+        "seconds": 487.95,
+        "prompt_tokens": 1931,
+        "output_tokens": 122,
+        "attempts": 1
+      }
+    }
+  ]
+}
