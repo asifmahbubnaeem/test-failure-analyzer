@@ -1,0 +1,1445 @@
+INFO:     Started server process [3420]
+INFO:     Waiting for application startup.
+database not ready (attempt 1): connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+database not ready (attempt 2): connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+database not ready (attempt 3): connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+database not ready (attempt 4): connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+database not ready (attempt 5): connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+database not ready (attempt 6): connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+database not ready (attempt 7): connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+database not ready (attempt 8): connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+database not ready (attempt 9): connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+database not ready (attempt 10): connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+starting without a database
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:41184 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41198 - "GET /healthz HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:52664 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52664 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52664 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:52664 - "GET /inventory.html HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/applications.py", line 1224, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/_body_limit.py", line 80, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 92, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 683, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 2929, in app
+    await route.handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 1375, in handle
+    await super().handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 289, in handle
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 175, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 161, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 762, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 383, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2779, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1124, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/app.py", line 133, in inventory
+    in_cart = {i["slug"] for i in db.cart(cart_of(request))}
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 67, in cart
+    with connect() as conn:
+         ^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 45, in connect
+    return psycopg.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/psycopg/connection.py", line 134, in connect
+    raise new_ex.with_traceback(None)
+psycopg.OperationalError: connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+INFO:     127.0.0.1:52676 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52676 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52676 - "POST / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52678 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52678 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52678 - "POST / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52690 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52690 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52690 - "POST / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52704 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52704 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52704 - "POST / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52716 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52716 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52716 - "POST / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52728 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52728 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52728 - "POST / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52744 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52744 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52744 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:52744 - "GET /inventory.html HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/applications.py", line 1224, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/_body_limit.py", line 80, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 92, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 683, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 2929, in app
+    await route.handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 1375, in handle
+    await super().handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 289, in handle
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 175, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 161, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 762, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 383, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2779, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1124, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/app.py", line 133, in inventory
+    in_cart = {i["slug"] for i in db.cart(cart_of(request))}
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 67, in cart
+    with connect() as conn:
+         ^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 45, in connect
+    return psycopg.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/psycopg/connection.py", line 134, in connect
+    raise new_ex.with_traceback(None)
+psycopg.OperationalError: connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+INFO:     127.0.0.1:52690 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52690 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52690 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:52690 - "GET /inventory.html HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/applications.py", line 1224, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/_body_limit.py", line 80, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 92, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 683, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 2929, in app
+    await route.handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 1375, in handle
+    await super().handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 289, in handle
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 175, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 161, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 762, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 383, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2779, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1124, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/app.py", line 133, in inventory
+    in_cart = {i["slug"] for i in db.cart(cart_of(request))}
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 67, in cart
+    with connect() as conn:
+         ^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 45, in connect
+    return psycopg.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/psycopg/connection.py", line 134, in connect
+    raise new_ex.with_traceback(None)
+psycopg.OperationalError: connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+INFO:     127.0.0.1:52692 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52692 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52692 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:52692 - "GET /inventory.html HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/applications.py", line 1224, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/_body_limit.py", line 80, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 92, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 683, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 2929, in app
+    await route.handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 1375, in handle
+    await super().handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 289, in handle
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 175, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 161, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 762, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 383, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2779, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1124, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/app.py", line 133, in inventory
+    in_cart = {i["slug"] for i in db.cart(cart_of(request))}
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 67, in cart
+    with connect() as conn:
+         ^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 45, in connect
+    return psycopg.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/psycopg/connection.py", line 134, in connect
+    raise new_ex.with_traceback(None)
+psycopg.OperationalError: connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+INFO:     127.0.0.1:34960 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34960 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34960 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:34960 - "GET /inventory.html HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/applications.py", line 1224, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/_body_limit.py", line 80, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 92, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 683, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 2929, in app
+    await route.handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 1375, in handle
+    await super().handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 289, in handle
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 175, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 161, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 762, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 383, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2779, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1124, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/app.py", line 133, in inventory
+    in_cart = {i["slug"] for i in db.cart(cart_of(request))}
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 67, in cart
+    with connect() as conn:
+         ^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 45, in connect
+    return psycopg.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/psycopg/connection.py", line 134, in connect
+    raise new_ex.with_traceback(None)
+psycopg.OperationalError: connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+INFO:     127.0.0.1:44766 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44766 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44766 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:44766 - "GET /inventory.html HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/applications.py", line 1224, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/_body_limit.py", line 80, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 92, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 683, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 2929, in app
+    await route.handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 1375, in handle
+    await super().handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 289, in handle
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 175, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 161, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 762, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 383, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2779, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1124, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/app.py", line 133, in inventory
+    in_cart = {i["slug"] for i in db.cart(cart_of(request))}
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 67, in cart
+    with connect() as conn:
+         ^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 45, in connect
+    return psycopg.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/psycopg/connection.py", line 134, in connect
+    raise new_ex.with_traceback(None)
+psycopg.OperationalError: connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+INFO:     127.0.0.1:44776 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44776 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44776 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:44776 - "GET /inventory.html HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/applications.py", line 1224, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/_body_limit.py", line 80, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 92, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 683, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 2929, in app
+    await route.handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 1375, in handle
+    await super().handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 289, in handle
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 175, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 161, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 762, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 383, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2779, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1124, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/app.py", line 133, in inventory
+    in_cart = {i["slug"] for i in db.cart(cart_of(request))}
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 67, in cart
+    with connect() as conn:
+         ^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 45, in connect
+    return psycopg.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/psycopg/connection.py", line 134, in connect
+    raise new_ex.with_traceback(None)
+psycopg.OperationalError: connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+INFO:     127.0.0.1:44788 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44788 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44788 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:44788 - "GET /inventory.html HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/applications.py", line 1224, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/_body_limit.py", line 80, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 92, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 683, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 2929, in app
+    await route.handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 1375, in handle
+    await super().handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 289, in handle
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 175, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 161, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 762, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 383, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2779, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1124, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/app.py", line 133, in inventory
+    in_cart = {i["slug"] for i in db.cart(cart_of(request))}
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 67, in cart
+    with connect() as conn:
+         ^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 45, in connect
+    return psycopg.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/psycopg/connection.py", line 134, in connect
+    raise new_ex.with_traceback(None)
+psycopg.OperationalError: connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+INFO:     127.0.0.1:43446 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43446 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43446 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:43446 - "GET /inventory.html HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/applications.py", line 1224, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/_body_limit.py", line 80, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 92, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 683, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 2929, in app
+    await route.handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 1375, in handle
+    await super().handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 289, in handle
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 175, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 161, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 762, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 383, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2779, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1124, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/app.py", line 133, in inventory
+    in_cart = {i["slug"] for i in db.cart(cart_of(request))}
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 67, in cart
+    with connect() as conn:
+         ^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 45, in connect
+    return psycopg.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/psycopg/connection.py", line 134, in connect
+    raise new_ex.with_traceback(None)
+psycopg.OperationalError: connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+INFO:     127.0.0.1:33324 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33324 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33324 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:33324 - "GET /inventory.html HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/applications.py", line 1224, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/_body_limit.py", line 80, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 92, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 683, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 2929, in app
+    await route.handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 1375, in handle
+    await super().handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 289, in handle
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 175, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 161, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 762, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 383, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2779, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1124, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/app.py", line 133, in inventory
+    in_cart = {i["slug"] for i in db.cart(cart_of(request))}
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 67, in cart
+    with connect() as conn:
+         ^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 45, in connect
+    return psycopg.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/psycopg/connection.py", line 134, in connect
+    raise new_ex.with_traceback(None)
+psycopg.OperationalError: connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+INFO:     127.0.0.1:36952 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36952 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36952 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:36952 - "GET /inventory.html HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/applications.py", line 1224, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/_body_limit.py", line 80, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 92, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 683, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 2929, in app
+    await route.handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 1375, in handle
+    await super().handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 289, in handle
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 175, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 161, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 762, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 383, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2779, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1124, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/app.py", line 133, in inventory
+    in_cart = {i["slug"] for i in db.cart(cart_of(request))}
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 67, in cart
+    with connect() as conn:
+         ^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 45, in connect
+    return psycopg.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/psycopg/connection.py", line 134, in connect
+    raise new_ex.with_traceback(None)
+psycopg.OperationalError: connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+INFO:     127.0.0.1:60570 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60570 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60570 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:60570 - "GET /inventory.html HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/applications.py", line 1224, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/_body_limit.py", line 80, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 92, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 683, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 2929, in app
+    await route.handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 1375, in handle
+    await super().handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 289, in handle
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 175, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 161, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 762, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 383, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2779, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1124, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/app.py", line 133, in inventory
+    in_cart = {i["slug"] for i in db.cart(cart_of(request))}
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 67, in cart
+    with connect() as conn:
+         ^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 45, in connect
+    return psycopg.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/psycopg/connection.py", line 134, in connect
+    raise new_ex.with_traceback(None)
+psycopg.OperationalError: connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+INFO:     127.0.0.1:35448 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35448 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35448 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:35448 - "GET /inventory.html HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/applications.py", line 1224, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/_body_limit.py", line 80, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 92, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 683, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 2929, in app
+    await route.handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 1375, in handle
+    await super().handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 289, in handle
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 175, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 161, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 762, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 383, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2779, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1124, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/app.py", line 133, in inventory
+    in_cart = {i["slug"] for i in db.cart(cart_of(request))}
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 67, in cart
+    with connect() as conn:
+         ^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 45, in connect
+    return psycopg.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/psycopg/connection.py", line 134, in connect
+    raise new_ex.with_traceback(None)
+psycopg.OperationalError: connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+INFO:     127.0.0.1:41828 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41828 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41828 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:41828 - "GET /inventory.html HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/applications.py", line 1224, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/_body_limit.py", line 80, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 92, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 683, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 2929, in app
+    await route.handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 1375, in handle
+    await super().handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 289, in handle
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 175, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 161, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 762, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 383, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2779, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1124, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/app.py", line 133, in inventory
+    in_cart = {i["slug"] for i in db.cart(cart_of(request))}
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 67, in cart
+    with connect() as conn:
+         ^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 45, in connect
+    return psycopg.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/psycopg/connection.py", line 134, in connect
+    raise new_ex.with_traceback(None)
+psycopg.OperationalError: connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+INFO:     127.0.0.1:56672 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56672 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56672 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:56672 - "GET /inventory.html HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/applications.py", line 1224, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/_body_limit.py", line 80, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 92, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 683, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 2929, in app
+    await route.handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 1375, in handle
+    await super().handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 289, in handle
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 175, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 161, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 762, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 383, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2779, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1124, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/app.py", line 133, in inventory
+    in_cart = {i["slug"] for i in db.cart(cart_of(request))}
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 67, in cart
+    with connect() as conn:
+         ^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/db.py", line 45, in connect
+    return psycopg.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/psycopg/connection.py", line 134, in connect
+    raise new_ex.with_traceback(None)
+psycopg.OperationalError: connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+Multiple connection attempts failed. All failures were:
+- host: 'localhost', port: '5999', hostaddr: '::1': connection failed: connection to server at "::1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+- host: 'localhost', port: '5999', hostaddr: '127.0.0.1': connection failed: connection to server at "127.0.0.1", port 5999 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?

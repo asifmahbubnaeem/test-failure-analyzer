@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "test-failure-analyzer"
+version = "0.1.0"
+description = "An AI agent that reads a failed CI run and says why it failed, measured against labelled failures."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []   # standard library only, on purpose
+
+[tool.setuptools.packages.find]
+include = ["tfa*"]

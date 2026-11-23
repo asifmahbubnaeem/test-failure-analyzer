@@ -1,0 +1,232 @@
+INFO:     Started server process [3386]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:38544 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38554 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54012 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54012 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54012 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54012 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54012 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54028 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54030 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54012 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54048 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54056 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54038 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54066 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54066 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54066 - "POST / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54076 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54076 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54076 - "POST / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54084 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54084 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54084 - "POST / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54096 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54096 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54096 - "POST / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54110 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54110 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54110 - "POST / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54124 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54124 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54124 - "POST / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54138 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54138 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54138 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54138 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54142 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54138 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54166 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54158 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54192 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54180 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54138 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54138 - "GET /logout HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54138 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54138 - "GET /inventory.html HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54138 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54198 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54198 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54198 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54198 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54208 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54198 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54198 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54234 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54208 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54214 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54226 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54226 - "POST /api/cart/canvas-tote-bag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54262 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54262 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54262 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54262 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54262 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54266 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54276 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54292 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54280 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54286 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54266 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54266 - "POST /api/cart/canvas-tote-bag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54266 - "POST /api/cart/desk-lamp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54266 - "GET /cart.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54306 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54306 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54306 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54306 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54308 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54306 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54324 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54334 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54314 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54346 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54308 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54346 - "POST /api/cart/canvas-tote-bag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54346 - "POST /api/cart/desk-lamp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54346 - "GET /cart.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54346 - "DELETE /api/cart/canvas-tote-bag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54350 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54350 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54350 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54350 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54350 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54362 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54372 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54406 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54350 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54394 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54388 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54406 - "POST /api/cart/canvas-tote-bag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54406 - "GET /cart.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54406 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54406 - "GET /cart.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54422 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54422 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54422 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54422 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54422 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54436 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54452 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54448 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54468 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54440 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54422 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54476 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54476 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54476 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54476 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54484 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54476 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54476 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54484 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54510 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54488 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54502 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54526 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54526 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54526 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54526 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54542 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54526 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54556 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54552 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54566 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54572 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54526 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54586 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54586 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54586 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54586 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54586 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54588 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54604 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54638 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54616 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54632 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54586 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54642 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54642 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54642 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54642 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54644 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54642 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54644 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54642 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54676 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54660 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54674 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54688 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54688 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54688 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54688 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54694 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54688 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54710 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54708 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54726 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54732 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54688 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54688 - "POST /api/cart/canvas-tote-bag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54688 - "POST /api/cart/desk-lamp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54688 - "GET /cart.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54688 - "GET /checkout-step-one.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54688 - "POST /checkout-step-one.html HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54688 - "GET /checkout-step-two.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54688 - "POST /checkout-step-two.html HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54688 - "GET /checkout-complete.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54742 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54742 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54742 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54742 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54742 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54756 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54780 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54756 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54798 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54768 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54782 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54756 - "POST /api/cart/canvas-tote-bag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54756 - "POST /api/cart/desk-lamp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54756 - "GET /cart.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54756 - "GET /checkout-step-one.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54756 - "POST /checkout-step-one.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54804 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54804 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54804 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54804 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54804 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54816 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54830 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54850 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54804 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54860 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54846 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54830 - "POST /api/cart/canvas-tote-bag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54830 - "POST /api/cart/desk-lamp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54830 - "GET /cart.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54830 - "GET /checkout-step-one.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54830 - "POST /checkout-step-one.html HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54830 - "GET /checkout-step-two.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54866 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54866 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54866 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54866 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54872 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54866 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54878 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54884 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54898 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54872 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54912 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54898 - "POST /api/cart/canvas-tote-bag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54898 - "POST /api/cart/desk-lamp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54898 - "GET /cart.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54898 - "GET /checkout-step-one.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54898 - "POST /checkout-step-one.html HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54898 - "GET /checkout-step-two.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54898 - "POST /checkout-step-two.html HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54898 - "GET /checkout-complete.html HTTP/1.1" 200 OK

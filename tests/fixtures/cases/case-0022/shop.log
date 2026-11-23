@@ -1,0 +1,456 @@
+INFO:     Started server process [3242]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:40516 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40532 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40544 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40544 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40544 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:40544 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40544 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40558 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40570 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40544 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40580 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40558 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40590 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40604 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40604 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40604 - "POST / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40612 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40612 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40612 - "POST / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40626 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40626 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40626 - "POST / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40638 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40638 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40638 - "POST / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40652 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40652 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40652 - "POST / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40658 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40658 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40658 - "POST / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40668 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40668 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40668 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:40668 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40668 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40684 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40696 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40700 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40710 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40694 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40668 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40710 - "GET /logout HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:40710 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40710 - "GET /inventory.html HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:40710 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40714 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40714 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40714 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:40714 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40716 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40714 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40716 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40714 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40730 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40738 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40752 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40714 - "POST /api/cart/canvas-tote-bag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40768 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40768 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40768 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:40768 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40778 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40784 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40796 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40770 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40768 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40790 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40796 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40796 - "POST /api/cart/canvas-tote-bag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40796 - "POST /api/cart/desk-lamp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40796 - "GET /cart.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40800 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40800 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40800 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:40800 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40800 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40810 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40824 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40852 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40828 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40844 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40800 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40844 - "POST /api/cart/canvas-tote-bag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40844 - "POST /api/cart/desk-lamp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40844 - "GET /cart.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40844 - "DELETE /api/cart/canvas-tote-bag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40864 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40864 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40864 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:40864 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40864 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40880 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40890 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40898 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40922 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40906 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40864 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40864 - "POST /api/cart/canvas-tote-bag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40864 - "GET /cart.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40864 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40864 - "GET /cart.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40936 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40936 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40936 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:40936 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40936 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40946 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40952 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40972 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40960 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40984 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40952 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40988 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40988 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40988 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:40988 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40992 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40988 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40988 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40992 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41008 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41006 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40998 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41024 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41024 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41024 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:41024 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41024 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41036 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41040 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41062 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41046 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41024 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41076 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41092 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41092 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41092 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:41092 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41092 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41142 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41104 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41118 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41128 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41126 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41092 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41158 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41158 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41158 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:41158 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41162 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41158 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41182 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41194 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41198 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41172 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41162 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41200 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41200 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41200 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:41200 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41232 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41236 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41200 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41212 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41208 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41224 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41236 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41236 - "POST /api/cart/canvas-tote-bag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41236 - "POST /api/cart/desk-lamp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41236 - "GET /cart.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41236 - "GET /checkout-step-one.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41236 - "POST /checkout-step-one.html HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:41236 - "GET /checkout-step-two.html HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/applications.py", line 1224, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/_body_limit.py", line 80, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 92, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 683, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 2929, in app
+    await route.handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 1375, in handle
+    await super().handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 289, in handle
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 175, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 161, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 762, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 383, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2779, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1124, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/app.py", line 234, in checkout_two
+    subtotal, tax, total = totals(items)
+                           ^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/app.py", line 75, in totals
+    rate = Decimal(os.environ["TAX_RATE"])
+                   ~~~~~~~~~~^^^^^^^^^^^^
+  File "<frozen os>", line 715, in __getitem__
+KeyError: 'TAX_RATE'
+INFO:     127.0.0.1:40632 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40632 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40632 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:40632 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40650 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40632 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40636 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40654 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40664 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40660 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40654 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40654 - "POST /api/cart/canvas-tote-bag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40654 - "POST /api/cart/desk-lamp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40654 - "GET /cart.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40654 - "GET /checkout-step-one.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40654 - "POST /checkout-step-one.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40672 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40672 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40672 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:40672 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40688 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40718 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40694 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40672 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40706 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40728 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40688 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40728 - "POST /api/cart/canvas-tote-bag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40728 - "POST /api/cart/desk-lamp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40728 - "GET /cart.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40728 - "GET /checkout-step-one.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40728 - "POST /checkout-step-one.html HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:40728 - "GET /checkout-step-two.html HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/applications.py", line 1224, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/_body_limit.py", line 80, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 92, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 683, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 2929, in app
+    await route.handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 1375, in handle
+    await super().handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 289, in handle
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 175, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 161, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 762, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 383, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2779, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1124, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/app.py", line 234, in checkout_two
+    subtotal, tax, total = totals(items)
+                           ^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/app.py", line 75, in totals
+    rate = Decimal(os.environ["TAX_RATE"])
+                   ~~~~~~~~~~^^^^^^^^^^^^
+  File "<frozen os>", line 715, in __getitem__
+KeyError: 'TAX_RATE'
+INFO:     127.0.0.1:48672 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48672 - "GET /static/shop.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48672 - "POST / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:48672 - "GET /inventory.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48672 - "GET /static/img/canvas-tote-bag.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48684 - "GET /static/img/desk-lamp.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48706 - "GET /static/img/notebook-set.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48694 - "GET /static/img/mechanical-keyboard.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48722 - "GET /static/img/trail-water-bottle.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48728 - "GET /static/shop.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48684 - "GET /static/img/wireless-mouse.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48722 - "POST /api/cart/canvas-tote-bag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48722 - "POST /api/cart/desk-lamp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48722 - "GET /cart.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48722 - "GET /checkout-step-one.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48722 - "POST /checkout-step-one.html HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:48722 - "GET /checkout-step-two.html HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/applications.py", line 1224, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/_body_limit.py", line 80, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 92, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 683, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 2929, in app
+    await route.handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 1375, in handle
+    await super().handle(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/routing.py", line 289, in handle
+    await self.app(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 175, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 161, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 762, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/routing.py", line 383, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2779, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1124, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/app.py", line 234, in checkout_two
+    subtotal, tax, total = totals(items)
+                           ^^^^^^^^^^^^^
+  File "/home/runner/work/tfa-failure-lab/tfa-failure-lab/shop/app.py", line 75, in totals
+    rate = Decimal(os.environ["TAX_RATE"])
+                   ~~~~~~~~~~^^^^^^^^^^^^
+  File "<frozen os>", line 715, in __getitem__
+KeyError: 'TAX_RATE'
